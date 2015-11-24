@@ -1,0 +1,288 @@
+* {
+	font-family: 'Open Sans' , sans-serif,
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', 'Dosis';
+}
+
+/*imagen del header*/
+.hero-image{
+	background: url(../img/background/hero.jpg);
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opacity{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+/*navegador*/
+
+header{
+	width: 100%;
+	z-index: 99;
+	padding: 1.3% 7.8%;
+	position: fixed;
+}
+header h1{
+	font-size: 1.5em;
+}
+
+/*-----HEADER-----*/
+nav{
+	margin: auto;
+    padding-top: 2%;
+    text-align: right;
+}
+.over a {
+	padding: 0.5% 2%;
+	color: white;
+	border-radius: 5px;
+	transition:all 0.5s ease;
+}
+.over a:hover {
+	background-color: white;
+	color: #00F0FF;
+	transition: all 0.5s ease;
+}
+.botones {
+	margin-top: 5%;
+
+	}
+.botones a {
+	padding: 0.5% 2%;
+	margin:2%;
+	color: white;
+	border-radius: 5px;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+
+}
+.botones a:hover {
+	background-color: #838181;
+	color: black;
+	transition: all 0.5s ease;
+}
+.title-principal{
+	padding-top: 17%;
+    text-align: center;
+}
+.title{
+	color: white;
+	font-size: 3em;
+    font-weight: normal;
+}
+.subtitle{
+	font-weight: normal;
+	padding: 3% 15% 0%;
+}
+/*-----SECCION SERVICIOS-----*/
+.i{
+	color: #0dc0c0;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.services .col-4{
+	padding: 0 5%;
+}
+/*-----SECCION FEATURES-----*/
+.features img{
+	width: 70%;
+}
+.ico{
+	color: #0dc0c0;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding-left: 80%;
+}
+/*-----SECCION PORTAFOLIO-----*/
+.navegacion {
+	margin-top: 2.5%;
+
+	}
+.navegacion a {
+	padding: 0.5% 1%;
+	color: black;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color: white;
+
+}
+.navegacion a:hover {
+	background-color: #0dc0c0;
+	color: white;
+	transition: all 0.5s ease;
+}
+.fotografia{
+background-color: white;
+padding: 2%;
+box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+}
+.fotografia img{
+	width: 100%;
+}
+.boton-portafolio a {
+	padding: 0.5% 1%;
+	color: black;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color: gray;
+
+}
+.boton-portafolio a:hover {
+	background-color: #0dc0c0;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/*-----SECCION CALL-TO-ACTION-----*/
+.city{
+	background: url(../img/background/city.jpg);
+	height:420px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opa-city{
+	width: 100%;
+	height: 420px;
+	background-color: rgba(0,0,0,0.6);
+}
+.call-to-action .row{
+	padding: 2% 5%;
+}
+.choose{
+	background-color: white;
+	padding: 10% 5% 15%;
+}
+.box-color{
+	background-color:#24282E;
+	padding: 8%;
+}
+.dolar{
+	font-size: 1.7em;
+	color:#6E6E6E;
+	font-weight: normal;
+}
+.box-green{
+	background-color: #0dc0c0;
+	padding: 8%;
+}
+
+.borde-bottom{
+	border-bottom: solid 1px #D8D8D8;
+	padding: 5%;
+	width: 80%;
+	margin: 0 auto;
+}
+.comprar a {
+	padding: 3% 10%;
+	margin:5%;
+	color: white;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color: #24282E;
+
+}
+.comprar a:hover {
+	background-color: #0dc0c0;
+	color: black;
+	transition: all 0.5s ease;
+}
+.text-bold{
+	font-weight: bold;
+}
+.paquete{
+	font-size: 2em;
+	color: white;
+	font-weight: normal;
+}
+
+/*-----CUSTOMER-----*/
+.customer img{
+	border-radius: 100%;
+	width: 10%;	
+}
+.customer div{
+	padding: 0 18% 5%;
+}
+.customer p{
+	padding: 0.5%;
+	font-weight: 600;
+}
+.customer h3{
+	font-size: 2em;
+	font-weight: normal;
+}
+
+/*-----CONTACT-----*/
+.contactus{
+	background: url(../img/background/contactus.jpg);
+	height: 677px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opa-contact{
+	width: 100%;
+	height: 677px;
+	background-color: rgba(0,0,0,0.6);
+}
+.email input{
+	padding: 5% 109% 5% 0;
+	margin-bottom: 10%;
+}
+.nombre input{
+	padding: 5% 109% 5% 0;
+	margin-bottom: 10%;
+}
+.mensaje textarea{
+	padding: 5% 0% 5% 0;
+	margin-bottom: 10%;
+}
+a .boton_enviar{
+	padding: 10% 5%;
+	color: black;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color:#0dc0c0;
+}
+.text-about{
+	padding-right: 25%; 
+}
+input,textarea{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: none;
+}
+button {
+	padding: 5% 15%;
+	color: white;
+	transition:all 0.5s ease;
+	background-color: #0dc0c0;
+	position: relative;
+	right: 26%;
+}
+button:hover {
+	background-color: gray;
+	color: black;
+	transition: all 0.5s ease;
+}
+/*-----FOOTER-----*/
+footer p{
+	padding: 0 20%;
+}
+footer i{
+	font-size: 2.5em;
+	color:  #585858;
+	padding:0.5%;
+}
+footer h2{
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.honores{
+	padding: 2.5%;
+}
